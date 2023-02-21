@@ -1,0 +1,673 @@
+Package: applist
+Version: 1.5.16
+Section: 依赖
+Filename: debs/applist_1.5.16_iphoneos-arm.deb
+Size: 186882
+MD5sum: 450d713aebb8472772c8c95ceddf726f
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Description: Allow extensions to read the list of installed apps
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Architecture: iphoneos-arm
+ModernDepiction: 
+Installed-Size: 780
+Name: AppList
+Author: Ryan Petrich <rpetrich@gmail.com>
+Sponsor: 小学生源
+Icon: file:///Applications/Cydia.app/Sections/System.png
+
+Package: cn.yttxcs.zhuziawandzc
+Version: 4.0
+Section: 字体
+Filename: debs/cn.yttxcs.zhuziawandzc_4.0_iphoneos-arm.deb
+Size: 32678086
+MD5sum: 9e16796d370881328961133546e0818c
+Maintainer: 壹筒天下中文源
+Description: 筑紫A丸多字重字体中英文100%「直装字体」直装字体,兼容系统:IOS9-IOS14,壹筒天下源提示你:字体转载于互联网需要免费或手动替换的请移步公众号获取,如有侵权请联系.--打包时间:2020年10月14日11:55:13秒
+Depends: firmware (>= 9.0),mobilesubstrate
+Architecture: iphoneos-arm
+ModernDepiction: 
+Installed-Size: 89613
+Name: 筑紫A丸多字重字体中英文100%「直装字体」
+Author: 字由心雨
+Sponsor: 幺筒源<409774743@qq.com>
+Icon: file:///Applications/Cydia.app/Sections/Fonts.png
+Tag: cydia::commercial
+
+Package: cn.yttxcs.zzytbwzyw100
+Version: 4.0
+Section: 字体
+Filename: debs/筑紫圆体B丸中英文 100% .deb
+Size: 11349892
+MD5sum: 56d1ae9e7521284a48dd2b96fea01a3a
+Maintainer: 他是个疯子 <409774743@qq.com>
+Description: 筑紫圆体B丸中英文100%「直装字体」直装字体,兼容系统:IOS10-IOS14,壹筒天下源提示你:字体转载于互联网需要免费或手动替换的请移步公众号获取,如有侵权请联系.--打包时间:2020年10月14日13:53:35秒
+Depends: firmware (>= 10.0),mobilesubstrate
+Architecture: iphoneos-arm
+ModernDepiction: 
+Installed-Size: 35253
+Name: 筑紫圆体B丸中英文100%「直装字体」
+Author: 字由心雨 <409774743@qq.com>
+Sponsor: 幺筒源<409774743@qq.com>
+Icon: file:///Applications/Cydia.app/Sections/Fonts.png
+Tag: cydia::commercial
+
+Package: com.appku.wechat
+Name: App库微信小助手
+Architecture: iphoneos-arm
+Filename: debs/com.appku.wechat_1.2_iphoneos-arm.deb
+Size: 1157408
+MD5sum: f8fd85f8d168a9756da7d86de6e9984e
+Description: 抢红包,推送小助手,伪装计算器,备注用户头像等；新增虚拟视频，右滑快速备注，全局长按导航栏快捷功能等。
+Maintainer: App库
+Author: App库
+Section: 应用增强
+Depends: mobilesubstrate (>= 0.9.5000)
+Version: 1.2
+
+Package: com.cannathea.afc2d-arm64
+Author: saurik, Cannathea <csupport@cannathea.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: Apple File Conduit "2" (iOS 11+, arm64)
+Filename: debs/afc2 com.cannathea.afc2d-arm64_1.1.6-1_iphoneos-arm.deb
+Size: 21802
+MD5sum: 324d6382bdff9ffced3853965e7e6d43
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64, mobilesubstrate, ldid
+Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Section: 系统增强
+Version: 1.1.6-1
+Architecture: iphoneos-arm
+Description: Allow full file-system access over USB for all arm64 devices, especially useful for those on iOS 11 and above.
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: cannathea
+Tag: purpose::daemon
+Installed-Size: 539
+
+Package: com.cydiabc.inosleep
+Version: 1.2.4
+Description: 允许锁屏时不断WiFi链接
+Filename: debs/com.cydiabc.inosleep_1.2.4_iphoneos-arm.deb
+Size: 36932
+MD5sum: 189a970b0fbf915bb7607faa8f2f1d67
+A12: 1
+Section: 系统增强
+Maintainer: Ai-小苹果
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Installed-Size: 368
+Name: iNoSleep锁屏不断WiFi
+Author: Tony Kraft
+Sponsor: Ai-小苹果
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Icon2: 12.png
+
+Package: com.cydiami.wechatpurification
+Section: 应用增强
+Installed-Size: 15516
+Filename: debs/com.cydiami.wechatpurification_2.4-7_iphoneos-arm.deb
+Size: 7671728
+MD5sum: 00f0ba03aafc07dfb385e4b15f76507f
+Maintainer: A Sileo蜜蜂源™ <admin@cydiami.com>
+Architecture: iphoneos-arm
+Version: 2.4-7
+Depends: mobilesubstrate, firmware (>= 12.0)
+Conflicts: netskao.wechatcallkit, netskao.wechatfakeipad, netskao.wechatnorevokemsg, netskao.wechatpyq
+Description: WeChat屏蔽越狱检测
+Name: WeChatPurification 微信净化
+Author: Netskao
+Sponsor: A Sileo蜜蜂源™ <https://apt.cydiami.com/>
+Icon: file:///Applications/Cydia.app/Sections/Messaging.png
+SCS: 0
+
+Package: com.exile90.icleanerpro
+Name: iCleaner Pro
+Description: The first real iOS system cleaner & optimizer
+Filename: debs/iClean Pro com.exile90.icleanerpro_7.9.1_iphoneos-arm.deb
+Size: 6756228
+MD5sum: 3e6ea0e3c785d32a3cf720b5ca8d2793
+Author: Ivano Bilenchi <support@ib-soft.net>
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Version: 7.9.1
+Architecture: iphoneos-arm
+Homepage: http://ib-soft.net/icleaner
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Section: 应用
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Icon: file:///Applications/iCleaner.app/Icon.png
+
+Package: com.hackyouriphone.flyjb
+Name: FlyJB
+Version: 0.2.5.6
+Filename: debs/com.hackyouriphone.flyjb_0.2.5.6_iphoneos-arm.deb
+Size: 630526
+MD5sum: b3277bfe1b8d7c80c45dbf000a2727c0
+Depends: mobilesubstrate, applist | com.hackyouriphone.applist (>= 1.5.15~beta1), preferenceloader
+Architecture: iphoneos-arm
+Author: XsF1re <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=flyjb
+SileoDepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=flyjb
+Section: 系统增强
+Description: You can HIDE Doing jailbreak your iDevice.
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=flyjb
+Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+
+Package: com.hoom.fakepicture
+Section: 应用
+Installed-Size: 10412
+Filename: debs/com.hoom.fakepicture_1.5.2_iphoneos-arm.deb
+Size: 4748406
+MD5sum: b5ff6c640208c6e5a92db3b98033b204
+Maintainer: 佚名
+Architecture: iphoneos-arm
+Version: 1.5.2
+Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000)
+Name: FakePicture  -  拍照替换
+Author: Joe Bruce
+Sponsor: 佚名
+
+Package: com.ios.wechat
+Version: 1.1.5
+Priority: optional
+Filename: debs/Wechat_1.1.5.deb
+Size: 809298
+MD5sum: 7ae28c5305f6a34246b96cf0f6c22ce5
+Section: 应用增强
+Maintainer: Jan<237523005@qq.com>
+Depends: firmware (>= 5.0), mobilesubstrate
+Architecture: iphoneos-arm
+Name: WeChat
+Author: Jan
+Sponsor: Jan<237523005@qq.com>
+Icon: http://repo.ccydia.top/CydiaIcon.png
+
+Package: com.johncoates.Flex3
+Author: John Coates <john@johncoates.me>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: Flex 3
+Filename: debs/Flex3_3 com.johncoates.Flex3_3~EarlyAccess4_iphoneos-arm.deb
+Size: 20615272
+MD5sum: f67309406f86af5b3d02a686693bae90
+Depends: mobilesubstrate, firmware (>= 9.0), com.rpetrich.rocketbootstrap
+Recommended: com.modmyi.libswift4 (>= 4.0.3)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, Flex3, Flex3beta, flex3featurecatalog
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, Flex3, Flex3beta, flex3featurecatalog
+Section: 应用
+Installed-Size: 57210
+Version: 3~EarlyAccess4
+Architecture: iphoneos-arm
+Description: Develop your own tweaks and share them on the Flex Community Cloud
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=flex3Dp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=flex3Dp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: acapulco1988
+Tag: purpose::extension, compatible::ios9, compatible::ios10
+Icon: file:///Applications/Flex.app/AppIcon29x29@2x.png
+
+Package: com.johnzaro.networkspeed13
+Architecture: iphoneos-arm
+Name: PerfectNetworkSpeedInfo
+Filename: debs/com.johnzaro.networkspeed13_3.0.1_iphoneos-arm.deb
+Size: 334848
+MD5sum: abbc4868144fb6d37495aa89002f49e1
+Depiction: https://johnzaro.github.io/cydia/depiction/web/com.johnzaro.networkspeed13.html
+SileoDepiction: https://johnzaro.github.io/cydia/depiction/native/com.johnzaro.networkspeed13.json
+ModernDepiction: https://johnzaro.github.io/cydia/depiction/native/com.johnzaro.networkspeed13.json
+Icon: https://johnzaro.github.io/cydia/assets/com.johnzaro.networkspeed13/icon.png
+Description: Shows upload & download speed in the status bar
+Section: 系统增强
+Depends: firmware (>=13.0), mobilesubstrate, com.spark.libsparkapplist, com.spark.libsparkcolourpicker, preferenceloader, ws.hbang.common (>= 1.14)
+Tags: compatible_min::ios13.0, compatible_max::ios13.6
+Author: Johnzaro  <johnzrgnns@gmail.com>
+Maintainer: Johnzaro  <johnzrgnns@gmail.com>
+Version: 3.0.1
+Installed-Size: 756
+
+Package: com.julioverne.cracktool4
+Name: CrackTool4 (iOS 9 - 14)
+Version: 4.0~beta10b
+Filename: debs/com.julioverne.cracktool4_4.0~beta10b_iphoneos-arm.deb
+Size: 2957354
+MD5sum: 5c794ec7c6a50d7af9716d28f675bc2d
+Architecture: iphoneos-arm
+Description: Crack Tweaks on one click
+Homepage: https://twitter.com/ijulioverne
+Maintainer: Julio
+Author: julioverne
+Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
+Section: 应用
+Depiction: https://julio.hackyouriphone.org/description.html?id=com.julioverne.cracktool4
+
+Package: com.linusyang.localeutf8
+Version: 1.0-1
+Section: 依赖
+Filename: debs/com.linusyang.localeutf8_1.deb
+Size: 17474
+MD5sum: 90e0df95d89f496c05c8dda839e1b382
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Description: UTF-8 locale files for en_US and zh_CN
+Depends: profile.d
+Architecture: iphoneos-arm
+ModernDepiction: 
+Installed-Size: 186
+Name: Locale Profiles in UTF-8
+Author: Linus Yang <laokongzi@gmail.com>
+Sponsor: 小学生
+Icon: file:///Applications/Cydia.app/Sections/System.png
+Tag: purpose::console, role::hacker
+
+Package: com.milkyway2
+Version: 0.2.0-alpha
+Section: 系统增强
+Filename: debs/com.milkyway2_0.2.0-alpha_iphoneos-arm.deb
+Size: 70276
+MD5sum: 21fb9178dfd3a06de80b930347fca957
+Description: iOS13分屏
+Maintainer: 小学生源
+Depends: mobilesubstrate, jp.akusio.backgrounderaction13, applist, preferenceloader, apt.cydiakk.milkyway2-ios14fix
+Architecture: iphoneos-arm
+Installed-Size: 376
+Name: MilkyWay2 快捷分屏
+Author: akusio <akusio-report@neko2.net>
+Sponsor: 小学生源
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+
+Package: com.milkyway2-ios14fix
+Version: 0.0.3
+Description: 修复milkiy不支持IOS14问题,IOS14系统需安装此补丁
+Filename: debs/com.milkyway2-ios14fix_0.0.3_iphoneos-arm.deb
+Size: 17666
+MD5sum: 57c8ba3533ef0b6fcba02e47c6f08356
+Section: 依赖
+Maintainer: 小学生源
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Installed-Size: 136
+Name: MilkyWay2分屏iOS14补丁
+Author: Brend0n
+Sponsor: 小学生源
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+
+Package: com.opa334.altlist
+Author: opa334 <opa334@protonmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: AltList
+Filename: debs/com.opa334.altlist_1.0.9_iphoneos-arm.deb
+Size: 73716
+MD5sum: 700f581171af36b0ca020c038ccf1d18
+Depends: firmware (>= 7.0)
+Section: 依赖
+Installed-Size: 304
+Version: 1.0.9
+Architecture: iphoneos-arm
+Description: A modern AppList alternative
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: opa334
+Tag: purpose::library
+
+Package: com.opa334.choicy
+Name: Choicy
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: debs/com.opa334.choicy_1.4.6_iphoneos-arm.deb
+Size: 258930
+MD5sum: 8e5f657c37e352690df8edd5d3e98cb9
+Architecture: iphoneos-arm
+Description: Advanced Tweak Configuration!
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Maintainer: opa334 <opa334@protonmail.com>
+Author: opa334 <opa334@protonmail.com>
+Section: 系统增强
+Version: 1.4.6
+Installed-Size: 1076
+
+Package: com.rpetrich.rocketbootstrap
+Version: 1.0.10~beta1
+Section: 依赖
+Filename: debs/com.rpetrich.rocketbootstrap_1.0.10~beta1_iphoneos-arm.deb
+Size: 68676
+MD5sum: ff2b0ae5861336a89d37e7f65d24a7a4
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
+Architecture: iphoneos-arm
+ModernDepiction: 
+Installed-Size: 596
+Name: RocketBootstrap
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Tag: purpose::extension, role::developer
+
+Package: com.shadow.h5ggapp
+Name: H5GG跨进程悬浮版
+Depends: mobilesubstrate
+Filename: debs/H5GGv7.9跨进程悬浮版.deb
+Size: 2461194
+MD5sum: 9dac2a51943905a4c70cb4f3b4e76686
+Architecture: iphoneos-arm
+Description: H5GG跨进程悬浮版(该版本不支持iPad的原生分屏浮动, 如有需要可使用H5GG跨进程普通版) Discord https://discord.gg/h5gg
+Maintainer: Shadow-
+Author: Shadow-
+Section: System
+Version: 0
+Installed-Size: 784
+
+Package: com.simplycode.PostBox
+Name: PostBox
+Version: 0.8.1
+Filename: debs/PostBox 0.8.1 com.simplycode.PostBox_0.8.1_iphoneos-arm.deb
+Size: 8420096
+MD5sum: b0c6e3209bc3ae57d61eac7d45f4ce3c
+Architecture: iphoneos-arm
+Description: News, package lists, and repo lists, all community centered.
+Icon: https://postbox.news/depicts/app/icon.png
+Homepage: https://postbox.news
+Depiction: https://postbox.news/depicts/app
+SileoDepiction: https://postbox.news/depicts/app/fancydeps.json
+Section: 应用
+Author: PostBox Team <getpostboxapp@gmail.com>
+Maintainer: PostBox Team <getpostboxapp@gmail.com>
+
+Package: com.spark.libsparkapplist
+Name: libSparkAppList
+Architecture: iphoneos-arm
+Filename: debs/com.spark.libsparkapplist_1.0.10_iphoneos-arm.deb
+Size: 55018
+MD5sum: df97ccb7e774a1c6f47fb97805b79325
+Description: AppList alternative
+Maintainer: Spark
+Author: Spark
+Section: 依赖
+Tag: role::developer
+Version: 1.0.10
+Installed-Size: 404
+
+Package: com.subdiox.storeswitcher2
+Name: AppStore切换账号 StoreSwitcher 2
+Depends: firmware (>= 11), mobilesubstrate
+Filename: debs/storeswitcher2 com.subdiox.storeswitcher2_1.0.3_iphoneos-arm.deb
+Size: 45964
+MD5sum: 427c433887e84f078d1e966b083161bc
+Architecture: iphoneos-arm
+Description: 用于AppStore快速切换登录过的账号。iOS 11+.
+Maintainer: subdiox
+Author: subdiox
+Section: 应用增强
+Version: 1.0.3
+Installed-Size: 276
+Icon: file:///Applications/Cydia.app/Sections/AppStore
+
+Package: com.xybp888.CallAssist13
+Version: 2.5.7
+Priority: optional
+Filename: debs/com.xybp888.CallAssist13_2.5.7_iphoneos-arm.deb
+Size: 2422142
+MD5sum: 89a3a25d8bd2c3c3da41c2aaf7e76b0f
+Section: 系统增强
+Maintainer: xybp888 <8657156@qq.com>
+Description: 电话助手授权版本,来电窗口,短信双卡选择,T9拨号键盘,通话录音,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Depends: firmware (>= 13.0), mobilesubstrate,preferenceloader,com.rpetrich.rocketbootstrap (>= 1.0.10~beta1)
+Architecture: iphoneos-arm
+Name: 电话助手iOS13-正式版
+Author: xybp888 <8657156@qq.com>
+Depiction: https://apt.htv123.com/view/460
+SileoDepiction: https://apt.htv123.com/sileo/460
+Icon: file:///Library/PreferenceBundles/CallAssistSetting.bundle/CallAssistIcon@3x.png
+
+Package: com.xybp888.magiciannojailbreak
+Version: 0.0.1-3515
+Section: 系统增强
+Filename: debs/com.xybp888.magiciannojailbreak_0.0.1-3515_iphoneos-arm.deb
+Size: 349208
+MD5sum: 3c578246619eb3cfbb6710556174437f
+Maintainer: xybp888 <8657156@qq.com>
+Description: 本插件仅供学习之用,不得用于商用,请于24小时内卸载删除,一切法律责任与本插件和作者无关
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm
+Installed-Size: 932
+Name: 魔术师
+Author: xybp888 <8657156@qq.com>
+Depiction: https://apt.htv123.com/view/457
+SileoDepiction: https://apt.htv123.com/sileo/457
+
+Package: curl
+Priority: standard
+Section: 依赖
+Filename: debs/curl_7.65.0-1_iphoneos-arm.deb
+Size: 402132
+MD5sum: e18c5a8bb8a52d80876acad380e69083
+Installed-Size: 1896
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 7.65.0-1
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libnghttp2-14, libssh2, libssl1.0
+Description: flexible multi-protocol file transfers
+Name: cURL
+Homepage: http://curl.haxx.se/
+
+Package: cydia.com.ipc.crackerxi
+Architecture: iphoneos-arm
+Name: CrackerXI+
+Filename: debs/crackerxi 1.1.5 可脱企业版cydia.com.ipc.crackerxi_1.1.5_iphoneos-arm.deb
+Size: 9560908
+MD5sum: 019cb9560023f5ae711deada080ce975
+Depends: firmware (>= 11.0), ldid (>=2.0)
+Version: 1.1.5
+Size: 244 Kb
+Website: https://ipastore.me
+Maintainer: c0pyn1nja
+Description: Decrypts iOS Apps
+Section: 应用
+Icon: file:///Applications/crackerxi.app/AppIcon.png
+
+Package: expat
+Priority: standard
+Section: 依赖
+Filename: debs/expat_2.2.5-1_iphoneos-arm.deb
+Size: 85322
+MD5sum: d4cb937b29aa0b20113a1d827169b80d
+Installed-Size: 624
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Multi-Arch: foreign
+Version: 2.2.5-1
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: stream-oriented XML parser written in C
+Name: XML Parser Toolkit
+
+Package: flyjbx
+Version: 1.2.5
+Section: 应用
+Filename: debs/flyjbx_1.2.5_iphoneos-arm.deb
+Size: 767952
+MD5sum: f64be0f093836bfc9738cbab41c76c42
+Maintainer: 小学生
+Depends: mobilesubstrate
+Conflicts: kr.xsf1re.flyjb, kr.xsf1re.flyjbx, netskao.flyjb, apt.cydiakk.flyjb
+Architecture: iphoneos-arm
+Installed-Size: 1580
+Name: FlyJB X屏蔽越狱
+Author: XsF1re
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+
+Package: git
+Priority: optional
+Section: 系统增强
+Filename: debs/git_2.20.0-1_iphoneos-arm.deb
+Size: 13203778
+MD5sum: 80a970e5ce11177b10466d22b5d28232
+Installed-Size: 55432
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 2.20.0-1
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: curl, expat, libssl1.0
+Description: fast content-addressable filesystem
+Name: Git
+
+Package: jp.akusio.backgrounderaction13
+Name: BackgrounderAction2 for CCSupport
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: debs/jp.akusio.backgrounderaction13_0.1.4_iphoneos-arm.deb
+Size: 20406
+MD5sum: b814da220527741b1e8253a4c3ec2a8b
+Architecture: iphoneos-arm
+Description: [iOS13]Add "Toggle Background Mode" action to ControlCenter.
+Depiction: https://akusio.github.io/descriptions/backgrounderaction13/index.html
+Maintainer: akusio <akusio-report@neko2.net>
+Author: akusio <akusio-report@neko2.net>
+Section: 依赖
+Version: 0.1.4
+Installed-Size: 244
+
+Package: libnghttp2-14
+Priority: standard
+Section: 依赖
+Filename: debs/libnghttp2-14_1.40.0-1_iphoneos-arm.deb
+Size: 71348
+MD5sum: df6644f69971b604476006cc4180c9fc
+Installed-Size: 400
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 1.40.0-1
+Pre-Depends: dpkg (>= 1.14.25-8)
+Replaces: nghttp2, libnghttp2
+Conflicts: nghttp2, libnghttp2
+Provides: nghttp2, libnghttp2
+Description: library implementing HTTP/2 protocol (shared library)
+Homepage: https://nghttp2.org/
+
+Package: libssh2
+Priority: optional
+Section: 依赖
+Filename: debs/libssh2_1.8.0-2_iphoneos-arm.deb
+Size: 97674
+MD5sum: 950a1113482e5ab069f5f377be4368d5
+Installed-Size: 608
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 1.8.0-2
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libssl1.0
+Description: a client-side C library implementing the SSH2 protocol
+Homepage: https://www.libssh2.org/
+
+Package: me.apptapp.installer
+Version: 5.0.3
+Section: 应用
+Filename: debs/me.apptapp.installer_5.0.3_iphoneos-arm.deb
+Size: 24100264
+MD5sum: 8777c35f45378e596f811ac7e6497a7f
+Description: Installer
+Maintainer: AppTapp <support@apptapp.me>
+Depends: firmware (>= 10.0)
+Architecture: iphoneos-arm
+Name: Installer 5 越狱插件管理器
+Author: AppTapp <support@apptapp.me>
+Sponsor: 小学生源
+Icon: file:///Applications/Cydia.app/Sections/Utilities.png
+
+Package: netskao.alipaysteps
+Version: 1.3-2
+Section: 应用增强
+Filename: debs/netskao.alipaysteps_1.3-2_iphoneos-arm.deb
+Size: 131664
+MD5sum: f14d5f572bef9322a7426d5b79097af8
+Maintainer: Nets
+Depends: mobilesubstrate, firmware (>= 9.0)
+Architecture: iphoneos-arm
+Installed-Size: 392
+Name: AlipaySteps
+Author: Netskao
+Description: 支付宝自定义步数修改，实时修改，设置位于支付宝-设置页面底部
+
+Package: netskao.appdata
+Version: 1.3.8
+Section: 系统增强
+Filename: debs/netskao.appdata_1.3.deb
+Size: 516746
+MD5sum: 5720b4bddc4f5a495b86ea2f8dc4c30b
+Maintainer: Nets
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Installed-Size: 1700
+Name: AppData
+Author: Fouad Raheb
+Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据快捷工具，此版本由站长完整汉化并修改优化。修改优化:增加简单版降级应用，增加可选向下滑动唤出，增加查看应用加密状态，增加面板可选去除面板分割线，修改原版卸载应用为真实卸载不保留数据，修改原版清除缓存后未同步刷新总数据显示问题，修复原版更多信息页面长按复制的信息错误问题，修改原版重置数据为包括重置程序组内文件夹数据，修改原版重置数据栏数据大小显示为包括程序组内文件夹数据，修改原版重置数据后未同步刷新缓存数据显示和权限个数显示问题，修改原版在非AppStore中下载的应用唤出时无法使用重置数据/重置权限/卸载应用(修改后仅在系统应用上禁止)
+
+Package: org.mr.systeminfo
+Name: System Info
+Author: ARX8x
+Filename: debs/org.mr.systeminfo_2.7.2-1_iphoneos-arm.deb
+Size: 449090
+MD5sum: 61681216d5e4ed643d66ea41bc506a38
+Description: 查看系统更多详细信息
+Maintainer: MainRepo
+Version: 2.7.2-1
+Section: 系统增强
+Depends: mobilesubstrate
+Depiction: https://mainrepo.org/package/753
+SileoDepiction: https://mainrepo.org/sileo/753
+Architecture: iphoneos-arm
+Icon: https://mainrepo.org/CydiaIcon.png
+
+Package: top.heyokj.apt.dwds
+Version: 1.8.1
+Section: 应用
+Filename: debs/top.heyokj.apt.dwds_1.8.1_iphoneos-arm.deb
+Size: 4918428
+MD5sum: fa8152391cdf9d08cd8ceb2f381b58c6
+Maintainer: Joe Bruce
+Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), applist (>= 1.5.14), com.rpetrich.rocketbootstrap (>= 1.0.2)
+Architecture: iphoneos-arm
+Name: GPSmaster-GPS定位大师【破解版】
+Author: Joe Bruce
+Sponsor: Joe Bruce
+Icon: file:///Applications/Cydia.app/Sections/Utilities.png
+
+Package: ws.hbang.newterm2
+Name: 终端 NewTerm 2
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.16), bash, coreutils, ncurses, system-cmds, gettext-localizations | com.linusyang.localeutf8
+Filename: debs/ws.hbang.newterm2_2.5_iphoneos-arm.deb
+Size: 2997440
+MD5sum: 468422ab2036af97ca0df67749438dbb
+Conflicts: ws.hbang.newterm, com.lint.ntarrows
+Replaces: ws.hbang.newterm, com.lint.ntarrows
+Architecture: iphoneos-arm
+Description: A powerful terminal app for iOS
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Author: HASHBANG Productions <support@hbang.ws>
+Section: 应用
+Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
+Depiction: https://chariz.com/get/newterm
+Support: https://hashbang.productions/support/
+Tag: compatible_min::ios10.0
+Version: 2.5
+Installed-Size: 6664
+
+Package: xyz.willy.zebra
+Name: Zebra
+Architecture: iphoneos-arm
+Filename: debs/zebra xyz.willy.zebra_1.1.30_iphoneos-arm.deb
+Size: 8276756
+MD5sum: 21c86bf5227c04fe869095786ed4e364
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Description: A Useful Package Manager
+Maintainer: Zebra Team <team@getzbra.com>
+Author: Zebra Team <team@getzbra.com>
+Section: 应用
+Icon: file:///Applications/Zebra.app/AppIcon60x60@3x.png
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
+Tag: compatible::9.0-15.7
+Version: 1.1.30
+Installed-Size: 12584
+
